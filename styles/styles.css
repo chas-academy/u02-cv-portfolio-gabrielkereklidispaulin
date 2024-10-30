@@ -21,7 +21,7 @@ h1 {
   font-size: 2rem;
   margin-bottom: 20px;
   padding: 10px;
-  background: linear-gradient(90deg, #5f9ea0, #a8c7d1, rgba(116, 186, 255, 0.8901960784));
+  background: linear-gradient(90deg, #5f9ea0, #a8c7d1, rgba(116, 186, 255, 0.9));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
