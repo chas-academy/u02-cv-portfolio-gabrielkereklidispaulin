@@ -1,1 +1,3 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/yc0nwklt)
+
+NOTERA: Det hade varit snyggare med 3 separata directories: styles, media, docs. Av någon anledning vill en del innehåll inte ladda om det inte ligger i styles så nu ligger media i styles trots allt. Video vägrar däremot att ladda om den ligger där så nu finns den "öppet". Något med github-pages började strula och nu när det fungerar får det vara såhär. 
