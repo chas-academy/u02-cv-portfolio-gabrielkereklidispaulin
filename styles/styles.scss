@@ -7,6 +7,10 @@
     font-size: 1.1rem;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     min-height: 100vh;
     background-image: url(./media/rainy_day_wallpaper.gif), url(./media/rainy_day_wallpaper.jpg);
@@ -19,7 +23,6 @@ body {
 h1 {
     font-size: 2rem;
     margin-bottom: 20px;
-    padding: 10px;
     background: linear-gradient(90deg, #5f9ea0, #a8c7d1, #74baffe3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -34,6 +37,19 @@ caption {
     font-size: 1.5rem;
     margin-bottom: 10px;
     font-weight: 600;
+}
+
+nav {
+    margin-bottom: 20px;
+
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 table {
@@ -176,5 +192,11 @@ img {
     .container .item-4,
     .container .item-5 {
         max-width: 375px;
+    }
+}
+
+@media (min-width: 1440px) {
+    nav {
+        display: none;
     }
 }
